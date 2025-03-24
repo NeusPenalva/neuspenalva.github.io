@@ -191,6 +191,7 @@ input, select, textarea {
 	}
 
 		h1.major {
+			color: #312450;
 			margin: 0 0 1.3em 0;
 			position: relative;
 			padding-bottom: 0.35em;
@@ -217,6 +218,12 @@ input, select, textarea {
 	h2 {
 		font-size: 1.75em;
 	}
+		h2.major {
+			color: #312450;
+			margin: 0 0 1.3em 0;
+			position: relative;
+			padding-bottom: 0.35em;
+		}
 
 	h3 {
 		font-size: 1.1em;
@@ -3270,6 +3277,15 @@ input, select, textarea {
 		.wrapper.style3-alt {
 			background-color: #953d75;
 		}
+		
+		.wrapper.style4 {
+		    background-image:linear-gradient(to right, rgba(255,255,255, 0.5) 0 100%), url("images/Tesi.png");
+		    background-position: top right;
+	     	background-repeat: no-repeat;
+			background-size: cover;
+			background-color: #ffffff;
+			color: #250030;
+		}
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
@@ -3881,8 +3897,18 @@ input, select, textarea {
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-color:#50006c;
-		background-size: 100% 100%;
+		background-size: cover;
+		height: 250px;
+		
 	}  
+	.intro-text {
+  text-align: right;
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 		#intro p {
 			font-size: 1.25em;
 		}
@@ -3918,7 +3944,7 @@ input, select, textarea {
   margin-top: 20px;
   margin-left: 1em;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #312450;
 }
 
 .resume .resume-item {
@@ -3935,7 +3961,7 @@ input, select, textarea {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: rgba(255, 255, 255, 0.85);
+  color: #312450;
   margin-bottom: 10px;
 }
 
