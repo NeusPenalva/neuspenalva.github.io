@@ -3904,8 +3904,8 @@ input, select, textarea {
 	.intro-text {
   text-align: right;
   position: absolute;
-  top: 70%;
-  left: 65%;
+  top: 75%;
+  right: 0%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -3926,6 +3926,11 @@ input, select, textarea {
 				#intro p {
 					font-size: 1em;
 				}
+				.intro-text {
+				top: 70%;
+				left: 50%;
+				margin-right: -10%;
+			}
 
 			}
 
